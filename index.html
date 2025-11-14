@@ -82,6 +82,25 @@
       font-size: 0.9em;
       color: #555;
     }
+
+    .button {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #333;
+      font-size: 0.95em;
+      margin: 0 6px;
+      background-color: #fafafa;
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+
+    .button:hover {
+      background-color: #f0f0f0;
+      border-color: #bbb;
+    }
+    
   </style>
 </head>
 
@@ -98,8 +117,8 @@
   </div>
 
   <div class="links">
-    <a href="link_to_paper.pdf">Paper</a>
-    <a href="link_to_video.mp4">Video</a>
+  <a class="button" href="link_to_paper.pdf">Paper</a>
+  <a class="button" href="link_to_video.mp4">Video</a>
   </div>
 
   <hr>
