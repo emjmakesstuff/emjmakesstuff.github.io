@@ -101,6 +101,20 @@
       background-color: #f0f0f0;
       border-color: #bbb;
     }
+
+    .img-row {
+      display: flex;
+      justify-content: center;     /* center the pair */
+      align-items: flex-start;
+      gap: 20px;                   /* spacing between the images */
+      margin: 20px 0;
+    }
+
+    .img-row img {
+      width: 48%;                  /* or any fixed width you prefer */
+      border-radius: 3px;
+    }
+
     
   </style>
 </head>
@@ -146,9 +160,13 @@
   <img src="images/conops_fig.png" alt="Conops Fig">
 
   <h2>Initial Grasping Experiments</h2>
-  <p>Description of another part of your project.</p>
+<p>Description of another part of your project.</p>
+
+<div class="img-row">
   <img src="images/experiment_fig.png" alt="Experiment Fig">
   <img src="images/data_fig.png" alt="Data Fig">
+</div>
+
 
   <hr>
 
